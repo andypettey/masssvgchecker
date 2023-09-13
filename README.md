@@ -26,7 +26,7 @@ Then you have to sit and wait.
 
 First you should move the files in batches (I use 500 in this example) to sub folders. You can use the command below and change the file number to make your life easier. Increment the `number` variable.
 
-`number=1 && mkdir $number && mv `ls *.svg | head -500` ./$number/`
+```number=1 && mkdir $number && mv `ls *.svg | head -500` ./$number/```
 
 Then you will need to run the script multiple times, if you use iTerm you know how to create multiple terminals and do some magic there. So I will provide an example command to execute.
 
